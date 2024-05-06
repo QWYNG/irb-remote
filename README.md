@@ -1,5 +1,5 @@
 # IrbRemote
-Inspired by [pry-remote](https://github.com/Mon-Ouie/pry-remote) and [irb_remote](https://github.com/iguchi1124/irb_remote).　　
+Inspired by [pry-remote](https://github.com/Mon-Ouie/pry-remote) and [irb_remote](https://github.com/iguchi1124/irb_remote).  
 IrbRemote is a Ruby gem designed to facilitate remote IRB sessions with Reline.
 
 ## Caution
