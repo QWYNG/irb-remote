@@ -1,11 +1,11 @@
 # IrbRemote
 Inspired by [pry-remote](https://github.com/Mon-Ouie/pry-remote) and [irb_remote](https://github.com/iguchi1124/irb_remote).  
-IrbRemote is a Ruby gem designed to facilitate remote IRB sessions with Reline.
+IrbRemote is a Gem that allows IRB sessions of remote processes to be manipulated using Reline. It uses druby for inter-process communication.
 
 ![image](https://github.com/QWYNG/irb-remote/assets/16704596/0651b6f8-75aa-4271-91cb-b714c26a580b)
 
 ## Caution
-This gem is still in development and may not work as expected. Please use with caution.
+This gem is still in development and may not work as expected. Please use it with caution.
 
 ## Installation
 
