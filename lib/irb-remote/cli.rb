@@ -22,7 +22,7 @@ module IrbRemote
       puts "Connected to remote session on #{uri}"
       IRB.setup(client.binding.source_location[0], argv: [])
       client.thread = Thread.current
-      client.input_method = InputMethod.new($stdin, $stdout, client.binding)
+      client.input_method = InputMethod.new(client.binding)
       client.output = $stdout
       client.stderr = $stderr
       sleep

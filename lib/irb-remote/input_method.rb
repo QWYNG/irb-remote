@@ -4,10 +4,8 @@ require_relative 'completor'
 
 module IrbRemote
   class InputMethod < IRB::RelineInputMethod
-    def initialize(stdin, stdout, binding)
+    def initialize(binding)
       super(IrbRemote::Completor.new)
-      @stdin = stdin
-      @stdout = stdout
       @binding = binding
       Reline.completion_proc = lambda { |target, preposing, postposing|
         @completion_params = [preposing, target, postposing, @binding]
