@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = 'Connect to IRB remotely using DRb'
   spec.homepage = 'https://github.com/QWYNG/irb-remote'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 3.0.0'
+  spec.required_ruby_version = '>= 3.2.0'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['rubygems_mfa_required'] = 'true'
